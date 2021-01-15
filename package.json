@@ -1,0 +1,26 @@
+{
+  "name": "bbdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "init": "eslit --init",
+    "test": "ava"
+  },
+  "author": "mmourazos",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "eslint": "^7.17.0",
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "mssql": "^6.3.1",
+    "mysql": "^2.18.1"
+  },
+  "ava": {
+    "files": [
+      "test/**/*"
+    ]
+  }
+}
